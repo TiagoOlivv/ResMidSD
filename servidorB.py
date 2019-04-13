@@ -5,11 +5,12 @@ app = Flask(__name__)
 
 @app.route('/<name>', methods=['GET','POST'])
 def main(name):
-	print(">>>>", name)
+	print("O que foi recebido: ", name)
 	data1 = {
-		"sended": name,
-		"response": name.replace(" ",""),
+		"enviado": name,
+		"resposta": name.replace(" ",""),
     }
+	print("O que será enviado: ", name.replace(" ",""))
 	return jsonify(data1)
 
 if __name__ == '__main__':
