@@ -1,6 +1,6 @@
+# THREADS, MIDDLEWARE E PARALELISMO 
 
-
-#Ideia Geral: Implementar um sistema distribuído com uso de middleware.
+Ideia Geral: Implementar um sistema distribuído com uso de middleware.
 
 • Requisito Funcional do Sistema: Software de TRANSFORMAÇÃO DE TEXTO.
 
