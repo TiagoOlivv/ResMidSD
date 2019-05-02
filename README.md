@@ -14,4 +14,4 @@ Ideia Geral: Implementar um sistema distribuído com uso de middleware.
 
 • Modo de Demostração: O cliente requisita um serviço e o middleware encaminha a requisição AO MESMO TEMPO USANDO THREADS aos servidores. O resultado é retornado para o cliente pelo middleware quando este por sua vez receber os dois resultados.
 
-• Comunicação: Os serviços nos servidores serão providos por uma interface RESTful Fim da conversa no bate-papo Digite uma mensagem...
+• Comunicação: Os serviços nos servidores serão providos por uma interface RESTful.
